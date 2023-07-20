@@ -1,0 +1,110 @@
+<!-- el esqueleto sólo se coloca el html y segunda opción o con signo de exclamación-->
+<!-- en este proyecto replicaremos la vista principal de la página de Google.com-->
+<!DOCTYPE html>
+<!-- (es) es español -->
+<html lang="es">
+    <!-- head es el titulo del navegador-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo de la página web en la pestaña-->
+    <title>Google 2.0</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>   <!-- body es todo lo que va ver el usuario-->
+    <header>
+        <!-- header es el encabezado -->
+        <!-- (nav) aporta navegación dentro de la página proporcionando enlaces dentro de a navegación-->
+        <nav>
+            <ul class="nav-right-section">
+                <!--gmail-->
+                <li>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a>
+                </li>
+                <!-- imagenes-->
+                <li>
+                    <a href="https://www.google.com/imghp?hl=es&tab=ri&authuser=0&ogbl">Imagenes</a>
+                </li>
+                <!--menú   especial lo vemos en css  -->
+                <!--agregamos una clase en la li de menú-->
+                <li class="menu">
+                    <a href=""></a>
+                </li>
+                <!--foto de perfil-->
+                <li>
+                    <a href="">
+                        <!-- dentro de la ancla ponemos un elemento de imagen-->
+                        <img src="https://lh3.googleusercontent.com/ogw/AGvuzYYSU67KLuUnzcy1HAJYFTomLkMkY4yzC6LTAtAHJG4=s32-c-mo" alt="perfil photo">
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+   <!--main es la división y lo más importante-->
+        <main>
+
+             <section class="main-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="logo gogle">
+             </section>
+
+          <!--sección del buscador-->  
+             <section class="main-input">
+               <!--caja redondeada gris-->
+                  <div class="main-input-container">
+                    <!--lupa-->
+                    <span class="search-icon"></span>
+                    <input type="text">  <!-- para meter texto-->
+                    <!-- micrófono-->
+                  <a class="micro-icon" href=""></a>
+                  <!--cámara-->
+                  <a class="cam-icon" href=""></a>
+                </div>
+             </section>
+             <section class="main-buttons">
+                    <!--botones con texto-->
+                  <div>
+                    <button>Buscar con Google</button>
+                  </div>
+                  <div>
+                    <button>Voy a tener suerte</button>
+                  </div>
+             </section>
+        </main>
+        <!--fooder (pie de página)-->
+        
+        <footer>
+        
+            <!--aquí iría la lista 1-->
+                <ul class="footer-left">
+                    <li>
+                        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="sobreg">Sobre Google</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="sobreg">Publicidad</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="sobreg">Negocios</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/search/howsearchworks/?fg=1" class="sobreg">Cómo funciona la búsqueda</a>
+                    </li>
+                </ul>
+
+
+                <ul class="footer-right">
+            <!--aquí iría la lista 2-->
+                  <li>
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1" class="sobre">Privacidad</a>
+                  </li>
+                  <li>
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1" class="sobre">Condiciones</a>
+                  </li>
+                  <li>
+                    <a href="SORRY" class="sobre">Preferencias</a>
+                  </li>
+             </ul>
+        </footer>
+</body>
+</html>
