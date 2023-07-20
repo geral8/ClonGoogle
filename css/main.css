@@ -164,7 +164,7 @@ footer .footer-right{
    justify-content: flex-end;
    margin-right: 30px;
    list-style: none;
-   white-space: nowrap;
+  
    margin-top: 0.8cm;
    
  }
@@ -173,7 +173,7 @@ footer .footer-right{
    display: flex;
    margin-right: 30px;
    list-style: none;
-   white-space: nowrap;
+ 
   margin-top: 0.8cm;
     
  }
@@ -199,7 +199,15 @@ footer .footer-right{
  display: flex;
  justify-content: space-evenly;
  justify-content: space-between;
- padding: 0 20px;
+
  margin-top: 3.5cm;
  min-height: 2cm;
+ display: grid; /* se separa en columnas*/
+ grid-template-columns: 1fr 1fr; /* ocupará 2 columnas */
+
+ border-top: 1px solid #e4e4e4;
+ bottom: 0%;
+ width: 100%; /* ancho */
+ height: 50px; /* Alto */
+  position: absolute;
  }
